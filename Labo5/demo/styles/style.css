@@ -1,0 +1,27 @@
+h1, h2{
+    color: darkblue;
+    font-size: 5em;
+    margin: 0;
+}
+.styleYellow
+{color:yellow;}
+
+.styleRed
+{color:red;
+font-size: 3em;
+}
+
+#menu
+{
+    color:blue;
+}
+
+section h1
+{color:yellow;}
+/*het is een voorouder, niet enkel parent, zelfs verde met iets ertussen*/
+
+/*section>h1*/
+/*{color:green;}*/
+/*als h1 een kind is, maak het groen*/
+
+/*hoe groter de nauwkeurigheid, hoe sterker, en hij wint, niet altijd de laatste, maar de neuwkeurige gaat dat overrulen*/
