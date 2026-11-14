@@ -1,0 +1,26 @@
+body {
+    font-family: Verdana;
+    font-size: 1.1em;
+    background-color: silver;
+    color: darkblue;
+}
+
+h1{
+    font-variant: all-small-caps;
+    background-color: red;
+}
+
+a:hover{
+    border: 2px solid darkblue;
+}
+
+.stippeltjesrand{
+    border: 1px dotted darkblue;
+}
+
+a {
+    background-image: url("../../opdracht6/styles/link.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+}
