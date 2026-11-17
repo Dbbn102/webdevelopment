@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+section {
+    width: 95%;
+    margin: auto;
+}
+
+section > header {
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 97px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+section > header h1 {
+    color: white;
+    font-size: 40px;
+    margin: 0;
+}
+
+nav {
+    background-color: #444;
+    padding: 7px 5px;
+}
+
+nav a {
+    color: #00ff66;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section > div > article {
+    background-color: #eee;
+    margin: 5px 4px;
+    padding: 5px;
+}
+
+article h2 {
+    color: #444;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+article p {
+    font-size: 11px;
+}
+
+article footer a {
+    font-size: 11px;
+}
+
+section > footer {
+    font-size: 11px;
+    padding: 5px;
+}

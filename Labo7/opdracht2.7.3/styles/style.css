@@ -1,0 +1,38 @@
+.kalender {
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.kalender th,
+.kalender td {
+    border: 1px solid black;
+    width: 40px;
+    height: 25px;
+}
+
+.maand {
+    background-color: rgb(170, 170, 200);
+    height: 30px;
+    font-size: 18px;
+}
+
+.dagen th {
+    color: rgb(200, 190, 240);
+    background-color: rgb(35, 37, 70);
+}
+
+.kalender tbody td:first-child,
+.kalender tbody td:last-child {
+    background-color: rgb(255, 220, 220);
+}
+
+.vorige-maand,
+.volgende-maand {
+    color: gray;
+}
+
+.feestdag {
+    background-color: rgb(250, 120, 120);
+    color: black;
+}
