@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    color: #444444;
+}
+
+#wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    text-align: center;
+}
+
+#imgHeader {
+    width: 50%;
+}
+
+/* Weekly Specials */
+#elixirs {
+    float: right;
+    width: 25%;
+    margin: 30px 0 20px 20px;
+    padding: 20px;
+    color: #444444;
+    border: 3px solid #a7cece;
+    background-image: url("../images/cocktail.gif");
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+#elixirs h1 {
+    text-align: center;
+    font-size: 150%;
+    color: #444444;
+}
+
+#elixirs h2 {
+    text-align: center;
+    font-size: 130%;
+    color: #990000;
+}
+
+#elixirs p {
+    text-align: center;
+}
+
+#elixirs img {
+    max-width: 100%;
+}
+
+#elixirs a {
+    color: gray;
+}
+
+#elixirs a:hover {
+    background-color: saddlebrown;
+    color: white;
+}
+
+/* Main content */
+#content {
+    float: left;
+    width: 70%;
+}
+
+#content h1,
+#content h2 {
+    color: #007e7e;
+}
+
+#content h1 {
+    font-size: 150%;
+}
+
+#content h2 {
+    font-size: 130%;
+}
+
+/* Blauwe tekstbox */
+.color {
+    padding: 1px;
+}
+
+#guarantee {
+    margin: 30px;
+    padding: 20px 20px 20px 80px;
+    color: #444444;
+    background-color: #a7cece;
+    background-image: url("../images/background.gif");
+    background-repeat: no-repeat;
+    background-position: top left;
+    border: 3px dotted white;
+}
+
+/* Tekst */
+.cd {
+    font-style: italic;
+}
+
+.artist {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    font-size: 0.6em;
+    text-align: center;
+}

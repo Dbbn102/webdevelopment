@@ -1,0 +1,27 @@
+body {
+    background-color: silver;
+    margin: 0;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav li{
+    list-style: none;
+}
+
+.breedte{
+    background-color: lawngreen;
+    margin: 20px;
+    padding: 20px;
+}
